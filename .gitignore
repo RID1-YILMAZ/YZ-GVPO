@@ -1,0 +1,19 @@
+# Üretilen veri paketleri (çıktılar repo'ya girmez)
+veri/
+*.zip
+
+# Bağımlılıklar / ortam
+node_modules/
+package.json
+package-lock.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# img2dataset ara çıktıları
+*.parquet
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
