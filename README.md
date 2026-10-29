@@ -1,4 +1,6 @@
-# Veri Paketi Oluşturucu (img2dataset tabanlı)
+# YZ-GVPO — Yapay Zeka Görsel Veri Paketi Oluşturucu
+
+> img2dataset tabanlı veri paketi (dataset) oluşturucu
 
 Bir AI platformu için **internetteki görselleri indirip tek bir veri paketi (dataset) klasöründe toplayan** araç.
 Çekirdekte sektör standardı [rom1504/img2dataset](https://github.com/rom1504/img2dataset) kullanılır;
@@ -7,7 +9,7 @@ onun üstüne URL toplama, tekilleştirme, ayıklama ve `manifest.csv` üretme k
 ## Klasör yapısı
 
 ```
-veripaketiolusturma/
+YZ-GVPO/
 ├── scriptler/
 │   ├── url_toplayici.py        # Anahtar gerektirmeyen açık kaynaklardan URL toplar
 │   ├── veri_paketi_olustur.py  # img2dataset sarmalayıcı + paketleme
